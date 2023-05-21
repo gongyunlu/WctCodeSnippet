@@ -1,0 +1,134 @@
+{
+    "CPUUSAGE_ERROR": {
+        "err": 100,
+        "msg": "CPU使用率过高"
+    },
+    "CONCURRENT_NUMBER_ERROR": {
+        "err": 101,
+        "msg": "并发数量过大"
+    },
+    "SUCCESS": {
+        "err": 200,
+        "msg": "成功"
+    },
+    "INTERNAL_ERROR": {
+        "err": 201,
+        "msg": "内部错误"
+    },
+    "TIMEOUT": {
+        "err": 202,
+        "msg": "操作超时"
+    },
+    "TERMINATE_EXECUTION": {
+        "err": 203,
+        "msg": "终止执行"
+    },
+    "RUNTIME_ERROR": {
+        "err": 204,
+        "msg": "发生意外错误，终止执行当前任务"
+    },
+    "SEND_MESSAGE_FAILED": {
+        "err": 300,
+        "msg": "websocket发送消息失败"
+    },
+    "INVALID_REQUEST": {
+        "err": 301,
+        "msg": "无效请求,数据包解析失败"
+    },
+    "SEND_DATA_SUCCESS": {
+        "err": 305,
+        "msg": "websocket发送数据成功"
+    },
+    "BROWSER_IS_NOT_CONNECTED": {
+        "err": 400,
+        "msg": "未连接到浏览器"
+    },
+    "NON_ASSOCIATED_PAGE": {
+        "err": 401,
+        "msg": "当前打开页面与“打开网页”模块中输入的页面不一致，请修改"
+    },
+    "BROWSER_DISCONNECT": {
+        "err": 402,
+        "msg": "浏览器断开连接"
+    },
+    "PREVIOUS_ACTION_IS_BEING_EXECUTED": {
+        "err": 403,
+        "msg": "当前仍有动作在执行，请等待该动作执行完毕后再进行其他操作"
+    },
+    "NOT_FOUND_RELATED_PAGE": {
+        "err": 404,
+        "msg": "未找到相关页面"
+    },
+    "PARAMETER_ERROR": {
+        "err": 405,
+        "msg": "参数错误"
+    },
+    "NOT_FOUND_TASK": {
+        "err": 406,
+        "msg": "未找到指定任务"
+    },
+    "NOT_FOUND_INPUT": {
+        "err": 407,
+        "msg": "未检测到输入框，请查看是否选中输入框控件"
+    },
+    "NOT_FOUND_DOM": {
+        "err": 408,
+        "msg": "未找到页面指定元素"
+    },
+    "NOT_FOUND_BROWSER": {
+        "err": 409,
+        "msg": "未找到浏览器"
+    },
+    "LOOP_IS_INTERRUPTED": {
+        "err": 410,
+        "msg": "当前动作循环被中断"
+    },
+    "NOT_FOUND_REQUEST": {
+        "err": 411,
+        "msg": "未找到指定request请求"
+    },
+    "SELECT_UNLIMITED_NODE": {
+        "err": 412,
+        "msg": "选择区域外的元素"
+    },
+    "WEBSITE_URL_ERROR": {
+        "err": 413,
+        "msg": "网页地址格式错误"
+    },
+    "SELECT_DOM_FAIL": {
+        "err": 414,
+        "msg": "选择元素失败"
+    },
+    "PAGE_NOT_EXISTS": {
+        "err": 415,
+        "msg": "页面不存在"
+    },
+    "CONNECT_BROWSER_FAILED": {
+        "err": 416,
+        "msg": "连接浏览器失败"
+    },
+    "BROWSER_EXPOSE_FUNCTION_FAILED": {
+        "err": 417,
+        "msg": "浏览器注入方法失败"
+    },
+    "DIRECTORY_NOT_EXIST": {
+        "err": 418,
+        "msg": "文件目录不存在"
+    },
+    "DIRECTORY__NOT_EMPTY": {
+        "err": 419,
+        "msg": "请选择空文件夹"
+    },
+    "NO_CONFIG_FILE": {
+        "err": 420,
+        "msg": "未找到配置文件"
+    },
+    "BUILD_ROWSELECTOR_ERROR": {
+        "err": 421,
+        "msg": "高级模式生成行选择器错误"
+    },
+    "CHANGE_ACTIVE_BROWSER_ERROR": {
+        "err": 422,
+        "msg": "请勿切换浏览器页面"
+    }
+}

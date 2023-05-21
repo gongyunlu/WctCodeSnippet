@@ -1,0 +1,37 @@
+{
+  "name": "telecomfraud",
+  "version": "1.0.0",
+  "description": "针对电信诈骗的网站固证系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules\\.bin\\gulp.cmd",
+    "mixin": "javascript-obfuscator ./ --output ../dist --exclude node_modules --config javascript-obfuscator.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.16:3000/Electronic-Data-Group/TelecomFraud.git"
+  },
+  "keywords": [
+    "诈骗"
+  ],
+  "author": "xly",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "fs-extra": "^10.0.0",
+    "join-images": "^1.0.0",
+    "log4js": "^6.3.0",
+    "puppeteer": "^12.0.1",
+    "sharp": "^0.29.3",
+    "ws": "^7.4.6"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-uglify": "^3.0.2",
+    "nexe": "^4.0.0-beta.19",
+    "os-utils": "^0.0.14",
+    "readable-stream": "^3.6.0"
+  }
+}

@@ -1,0 +1,9 @@
+logs
+*.log
+*.exe
+template/cases/*
+dist
+shots
+builder.js
+template/index.js
+template/commandSet/TestDiscernCommand.js
